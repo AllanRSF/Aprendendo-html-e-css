@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.texto {
+    display: inline-block;
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+.texto:hover {
+    background-color: black;
+}

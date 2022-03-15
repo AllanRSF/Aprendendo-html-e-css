@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+    : = pseudo-class
+    :: = pseudo-element    
+    > = children
+    
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#especial {
+    background-color: rgb(255, 140, 140);
+}
+
+.link:visited {
+    color: darkred;
+}
+
+.link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.link:active {
+    color: yellow;
+}
+
+.link::before {
+    content: '⇒';
+    color: black;
+}
+
+.link::after {
+    content: '⇐';
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+
+}
